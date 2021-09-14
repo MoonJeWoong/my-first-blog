@@ -3,7 +3,7 @@ from django.db import models
 from django.utils import timezone
 
 # class 이름 첫 자는 항상 대문자
-# models는 Post가 장고 모델임을 의미합니다. 이 코드 때문에 장고는 Post가 데이터베이스에 저장되어야 한다고
+# models는 Post가 장고 모델임을 의미한다. 이 코드 때문에 장고는 Post가 데이터베이스에 저장되어야 한다고
 # 알게 된다.
 
 class Post(models.Model):
